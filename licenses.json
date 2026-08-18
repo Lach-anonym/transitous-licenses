@@ -205,6 +205,18 @@
       "url": "https://kingcounty.gov/en/dept/metro/rider-tools/mobile-and-web-apps#toc-transit-data-terms-of-use"
     },
     {
+      "identifier": "it-cciss",
+      "name": "NAP DI CENTRO COORDINAMENTO INFORMAZIONI SICUREZZA STRADALE",
+      "attribution_text": "regolamenti UE 962/2015 e 1926/2017",
+      "url": "https://www.cciss.it/web/cciss/-/bozza"
+    },
+    {
+      "identifier": "IODL-2.0",
+      "name": "Italian Open Data License v 2.0",
+      "attribution_text": "",
+      "url": "https://www.dati.gov.it/content/italian-open-data-license-v20"
+    },
+    {
       "identifier": "Sound Transit Transit Data Terms of Use",
       "name": "Sound Transit",
       "attribution_text": "",
@@ -212,6 +224,36 @@
     }
   ],
   "sources": [
+    {
+      "file": "it_Calabria-CORE.gtfs.zip",
+      "spdx": null,
+      "url": "https://mobilita.regione.calabria.it/",
+      "custom_license": "IODL-2.0"
+    },
+    {
+      "file": "it_Sicilia-Catania-AMTS.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.amts.ct.it/GTFS/AMTCT.zip",
+      "custom_license": "IODL-2.0"
+    },
+    {
+      "file": "it_Lombardia-Autolinee-Varesine.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.varesine.it/",
+      "custom_license": "IODL-2.0"
+    },
+    {
+      "file": "it_Sicilia-FCE-Circumetnea.gtfs.zip",
+      "spdx": null,
+      "url": "https://it.mangonese.dev/gtfs/fce.gtfs.zip",
+      "custom_license": "it-cciss"
+    },
+    {
+      "file": "it_trenitalia.netex.zip",
+      "spdx": null,
+      "url": "https://public-transport.github.io/transitous-trenitalia-preprocessor/trenitalia-netex.zip",
+      "custom_license": "it-cciss"
+    },
     {
       "file": "ro_railway.gtfs.zip",
       "spdx": "OGL-ROU-1.0",
